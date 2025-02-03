@@ -36,12 +36,12 @@ function App() {
   {
     id: 4,
     description: "Confía en mí, será divertido.",
-    img: "https://media.tenor.com/Bn88VELdNI8AAAAi/peach-goma.gif"
+    img: "https://www.gifcen.com/wp-content/uploads/2022/04/pokemon-gif-2.gif"
   },
   {
     id: 5,
     description: "No tengas dudas, te hará sonreír.",
-    img: "https://i.pinimg.com/originals/c6/b3/0d/c6b30d1a2dc178aeb92de63295d4ae64.gif"
+    img: "https://www.gifcen.com/wp-content/uploads/2022/04/pokemon-gif-2.gif"
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ function App() {
   {
     id: 7,
     description: "No dejes que el miedo te detenga.",
-    img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
+    img: "https://media1.giphy.com/media/vnGlErQHuF9BK/200.gif?cid=6c09b952sykpnrdgli1brwbaqf6171sixf7v7o2es3pymmbx&ep=v1_gifs_search&rid=200.gif&ct=g"
   },
   {
     id: 8,
@@ -66,7 +66,7 @@ function App() {
   {
     id: 10,
     description: "No te arrepentirás.",
-    img: "https://media.tenor.com/I7KdFaMzUq4AAAAi/peach-goma.gif"
+    img: "https://i.pinimg.com/originals/30/e0/04/30e0046d1ac67d128f01fdc7d7758b03.gif"
   }]
 
   const randomResponse = () => {
