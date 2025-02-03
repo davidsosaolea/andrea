@@ -89,7 +89,8 @@ function App() {
       {
         !valueSi ? (
           <div className="p-5">
-            <h1 className="text-white font-bold text-5xl text-center"> Andrea amor de mi vida <br /> ¿Quieres ser mi San Valentin?</h1>
+            <h1 className="text-green-500 font-bold text-5xl text-center">Andrea amor de mi vida <br /> ¿Quieres ser mi San Valentín? </h1>
+
             <img src={Object.keys(randomValor).length === 0 ?
               "https://media.tenor.com/d532ir4rUe0AAAAj/charmander.gif" : randomValor.img} alt="San Valentin" className="mx-auto" width={400} height={400} />
             <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5 items-center">
