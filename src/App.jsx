@@ -13,59 +13,59 @@ function App() {
   const [valueSi, setValueSi] = useState(false)
 
   let random = [{
-    id: 1,
-    description: "Di si por favor",
+    id: 0,
+    description: "Di que chi, no seas aburrida 😏",
     img: "https://i.gifer.com/F5eI.gif"
   },
   {
     id: 1,
-    description: "Piénsalo de nuevo.",
+    description: "Vamos, piénsalo otra vez... Te veo dudando. 🤨",
     img: "https://www.gifcen.com/wp-content/uploads/2024/01/pokemon-gif-9.gif"
   }
     ,
   {
     id: 2,
-    description: "Vamos, atrévete a decir que sí.",
+    description: "Dale, atrévete, no va a explotar nada… por ahora... creo. 😆",
     img: "https://i.pinimg.com/originals/7d/8e/ce/7d8ece07bdf7e7aeba520ee0a5adcaa8.gif"
   },
   {
     id: 3,
-    description: "No tengas miedo, será genial.",
+    description: "No tengas miedo, ¿qué es lo peor que podría pasar? no lo digas! 👀",
     img: "https://media.tenor.com/rzopOMim9YEAAAAM/charmander-pokemon.gif"
   },
   {
     id: 4,
-    description: "Confía en mí, será divertido.",
+    description: "Veo que precionaste el boton equivocado por error, te doy otra oportunidad 🎉 ",
     img: "https://www.gifcen.com/wp-content/uploads/2022/04/pokemon-gif-2.gif"
   },
   {
     id: 5,
-    description: "No tengas dudas, te hará sonreír.",
+    description: "Dudas... dudas... ¡fuera dudas! Esto te va a encantar. 🎉",
     img: "https://www.gifcen.com/wp-content/uploads/2022/04/pokemon-gif-2.gif"
   },
   {
     id: 6,
-    description: "Te prometo que será inolvidable.",
+    description: "Esto será inolvidable… como la radio. 😆",
     img: "https://media.tenor.com/N2oqtqaB_G0AAAAi/peach-goma.gif"
   },
   {
     id: 7,
-    description: "No dejes que el miedo te detenga.",
+    description: "No dejes que el miedo te detenga, ¡sé valiente como un Magikarp! 💪",
     img: "https://media1.giphy.com/media/vnGlErQHuF9BK/200.gif?cid=6c09b952sykpnrdgli1brwbaqf6171sixf7v7o2es3pymmbx&ep=v1_gifs_search&rid=200.gif&ct=g"
   },
   {
     id: 8,
-    description: "Confía en el destino, nos está dando una señal.",
+    description: "El universo te está guiñando el ojo, me lo dijo el tarot, ¿vas a ignorarlo? 😉✨",
     img: "https://media.tenor.com/cbEccaK9QxMAAAAi/peach-goma.gif"
   },
   {
     id: 9,
-    description: "Confía en mí.",
+    description: "Solo di que chi y confía en el proceso… o en mí jaja. 😏",
     img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
   },
   {
     id: 10,
-    description: "No te arrepentirás.",
+    description: "Hazlo, no te arrepentirás... probablemente. 😂",
     img: "https://i.pinimg.com/originals/30/e0/04/30e0046d1ac67d128f01fdc7d7758b03.gif"
   }]
 
@@ -89,7 +89,7 @@ function App() {
       {
         !valueSi ? (
           <div className="p-5">
-            <h1 className="text-green-500 font-bold text-5xl text-center">Andrea amor de mi vida <br /> ¿Quieres ser mi San Valentín? </h1>
+            <h1 className="text-green-500 font-bold text-5xl text-center">Andrea Guiliana <br /> ¿Quieres ser mi San Valentín? </h1>
 
             <img src={Object.keys(randomValor).length === 0 ?
               "https://media.tenor.com/d532ir4rUe0AAAAj/charmander.gif" : randomValor.img} alt="San Valentin" className="mx-auto" width={400} height={400} />
